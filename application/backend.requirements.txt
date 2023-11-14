@@ -5,8 +5,9 @@ requests
 wonderwords
 aiofiles
 Pillow
-celery==v5.1.2
+celery==5.2.2.1.2
 jinja2
 boto3
 moto
 python-dotenv
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
